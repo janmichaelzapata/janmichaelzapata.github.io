@@ -33,6 +33,13 @@ h2 {
 	margin-top: 0;
 }
 
+h3 {
+	font-size: 12px;
+	margin-bottom: 0;
+	font-family: 'Open Sans', sans-serif;
+	color: grey;	
+}
+
 .bio {
 	font-size: 14px; /* default font-size = 16px */
 
