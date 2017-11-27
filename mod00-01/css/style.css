@@ -4,8 +4,10 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	font-family: 'Source Code Pro', monospace;
+/*	font-family: 'Source Code Pro', monospace;*/
 	/*position: relative;*/
+	font-family: 'Archivo Black', sans-serif;
+	font-family: 'Lobster', cursive;
 }
 p {
 
