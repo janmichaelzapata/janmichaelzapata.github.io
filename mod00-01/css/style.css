@@ -4,11 +4,10 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-/*	font-family: 'Source Code Pro', monospace;*/
-	/*position: relative;*/
 	font-family: 'Archivo Black', sans-serif;
 	font-family: 'Lobster', cursive;
 }
+
 p {
 
 	font-family: 'Open Sans', sans-serif;
@@ -54,10 +53,6 @@ h3 {
 
 }
 
-/*
-* .wrapper
-*/
-
 .wrapper {
 	width: 50%;	
 	/*margin: 0 auto;*/
@@ -67,14 +62,6 @@ h3 {
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
-
-
-
-
-
-
-
-
 
 
 
