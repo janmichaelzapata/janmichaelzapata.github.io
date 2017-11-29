@@ -1,51 +1,51 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>My Third Website | A simple website</title>
-	<style type="text/css">
-		textarea{
-			height: 100px;
-			width: 200px;
-		}
-		form{
-			width: 25%;
-		}
-	</style>
-</head>
-<body>
-	<form>
-	<fieldset>
-		<legend>Your Details</legend>
-		<label> Name: <input type="Name" name="Name"></label><br>
-		<label>Email: <input type="Email" name="email"></label>
-	</fieldset>
-	<br>
-	<fieldset>
-		<legend>Your Review</legend>
-		<br>How did you hear about us?
-		<select name="source" required="">
-		<option value="Google">Google</option>
-		<option value="Facebook">Facebook</option>
-		<option value="Tweeter">Tweeter</option>
-		<option value="Instagram">Instagram</option>
-		<option value="Ads">Ads</option>
-		<option value="Blogs">Blogs</option>
-		</select>
-	<br><br>
-	Would you visit again?
-	<br>
-	<label><input type="radio" name="genre" value="Yes">Yes</label>
-	<label><input type="radio" name="genre" value="No">No</label>
-	<label><input type="radio" name="genre" value="Maybe">Maybe</label>
-	<br><br>
-	<label>Comments</label><br>
-	<textarea name="comments" placeholder="Write Here"></textarea>
-	<br>
-	<label><input type="checkbox" name="signmeup" value="signmeup">Sign me up for email updates</label>
-	<br><br>
-	<input type="submit" name="submit" id="submit" value="Subscribe review">
-	</fieldset>	
-	</form>
-</body>
-</html>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My Third Website | A simple website</title>
+		<style type="text/css">
+			textarea{
+				height: 100px;
+				width: 220px;
+			}
+			form{
+				width: 25%;
+			}
+		</style>
+	</head>
+	<body>
+		<form>
+		<fieldset>
+			<legend>Your Details</legend>
+			<label> Name: <input type="text" name="Name" required></label><br>
+			<label>Email: <input type="email" name="Email" required></label>
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Your Review</legend>
+
+			<label>How did you hear about us?</label>
+			<select name="source" required="">
+				<option value="gacebook">Facebook</option>
+				<option value="tweeter">Tweeter</option>
+				<option value="instagram">Instagram</option>
+				<option value="ads">Ads</option>
+				<option value="blogs">Blogs</option>
+			</select>
+		<br><br>
+		<label>Would you visit again?</label>
+		<br>
+		<label><input type="radio" name="answer" value="yes">Yes</label>
+		<label><input type="radio" name="answer" value="no">No</label>
+		<label><input type="radio" name="answer" value="maybe">Maybe</label>
+		<br><br>
+		<label>Comments</label><br>
+		<textarea name="comments" placeholder="Write Here"></textarea>
+		<br>
+		<label><input type="checkbox" name="signmeup" value="signmeup">Sign me up for email updates</label>
+		<br><br>
+		<input type="submit" name="submit" id="submit" value="Subscribe review">
+		</fieldset>	
+		</form>
+	</body>
+	</html>
