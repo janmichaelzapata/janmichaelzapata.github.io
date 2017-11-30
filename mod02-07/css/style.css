@@ -1,0 +1,136 @@
+/*all universal selector*/
+/*bo/*//**dy *{
+	background-color: green;
+}
+*//**/
+/*type selector*/
+/*p {
+
+	background-color: yellow;
+}
+*/
+/*id selector*/
+/*#para1 {
+
+	background-color: red;
+}*/
+
+/*Class Selector*/
+/*.paragraph {
+	background-color: orange;
+
+}
+*/
+/*Attribute Selector*/
+/*[target] {*/ 
+/*
+	color: green;
+}*/
+
+/*attribute with value*/
+/*a[target="_top"] {
+	color:indigo; 
+}
+
+H5 + a {
+
+	background-color: red;
+}*/
+
+/*a + br + a {
+	background-color: green;
+}*/
+
+/*General siblings selector*/
+/*h5 ~ div a {
+background-color: yellow;
+}*/
+
+
+/*Child Selector combinator*/
+
+/*div > a {
+	background-color: blue;
+}*/
+/*
+div a {
+
+	background-color: yellow;
+}*/
+
+/*pseudo-class*/
+/*a:link {
+color: orange;
+background-color: purple;
+}
+
+
+a:visited {
+color: yellow;
+background-color: green;
+}*/
+
+a:focus {
+
+	background-color: black;
+	color: red;
+}
+
+a:hover{
+	background-color: black;
+	color: red;	
+}
+
+a:active,
+h3:active,
+h5:active {
+	background-color: yellow;
+	color: black;
+}
+
+/*first child*/
+
+
+li:first-child {
+background-color: black;
+color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
