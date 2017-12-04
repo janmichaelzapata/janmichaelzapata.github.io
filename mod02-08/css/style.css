@@ -1,0 +1,57 @@
+/*css resret*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; /*to avaoid overflow*/
+}
+
+body	{
+	background-color: lightgrey;
+}
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto; /*to center the wrapper*/
+	background-color: #fff;
+}
+
+div {
+	padding: 20px;
+}
+
+.grandparent {
+	background-color: skyblue;
+	width: inherit; /*refer to parent container width*/
+	position: fixed;
+	top: 0;
+/*	bottom: 50px;
+	left: 50px;*/
+}
+.parent {
+	background-color: pink;
+	width: 100%;
+	position: relative;
+/*width: inherit*/
+}
+ p {
+ 	position: static; /*default*/
+ 	margin-left: 50px; 
+ 	/*margin-top: -20px;*/
+ }
+
+input[name="submit"]{
+	margin-left: 20px;
+}
+
+strong	{
+	background-color: yellow;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	/*top: 100px;
+	left: 100px;*/
+	/*right: -100px;
+	bottom: -100px;*/
+}
+

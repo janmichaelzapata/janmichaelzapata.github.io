@@ -1,0 +1,35 @@
+/*css resret*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; /*to avaoid overflow*/
+}
+
+body	{
+	background-color: lightgrey;
+}
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto; /*to center the wrapper*/
+	background-color: #fff;
+}
+
+h1 {
+	background-color: grey;
+	padding: 10px;
+	position: fixed;
+	z-index: 1; /*will push element on top*/
+	width: inherit;
+	color: white;
+}
+
+main.wrapper > p {
+	height: 1000px;
+	background-color: #efefef;
+	position: relative;
+	top: 70px;
+}
+
+
