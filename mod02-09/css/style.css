@@ -1,7 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box; /*to avaoid overflow*/
+	box-sizing: border-box; /*to avoid overflow*/
 }
 body {
 	background-repeat: no-repeat;

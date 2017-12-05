@@ -86,14 +86,59 @@ button {
 
 
 
+a,
+abbr,
+article,
+aside,
+blockquote,
+button,
+dd,
+del,
+div,
+dl,
+dt,
+em,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hr,
+img,
+input,
+input,
+ins,
+label,
+li,
+nav,
+ol,
+p,
+q,
+s,
+select,
+small,
+span,
+strong,
+sub,
+sup,
+table,
+textarea,
+ul {
 
+background-color: lightgreen
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    width: 50%;
+    height: 50%
+    padding 10px 20px 30px 40px;
+    margin: 50px 60px 70px 80px;
 
-
-
-
-
-
-
-
-
-
+}
