@@ -4,44 +4,68 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="Ie=Edge">
-	<title>Awesome Site</title>
+	<title>Praktisan</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
+
+
 </head>
-	<body>
-		<main class="wrapper">
-			<div class="main">
-				<div class="home" id="home">
-					<h4>The Website</h4>
-					<p>This is a sample website layout ulitilizing CSS Positions and Floats</p>
-				</div>
-				<div class="about" id="about">
-					<h5>About</h5>
-				</div>
-				<div class="services" id="services">
-					<h5>Services</h5>
-				</div>
-				<div class="project" id="project">
-					<h5>Projects</h5>
-				</div>
-				<div class="gallery" id="gallery">
-					<h5>Gallery</h5>
-				</div>
-			</div>    
-		</main>
-		<aside>
-				<div><img src="#" alt="logo"></div>
-				<div class="sidenav">
-					  <a href="#home" id="l1">Home</a>
-					  <a href="#about">About</a>
-					  <a href="#services">Services</a>
-					  <a href="#project">Projects</a>
-					  <a href="#gallery">Gallery</a>
-				</div>\
-		</aside>
+<body>
+	<div id="mySidenav" class="sidenav">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  <a href="#home">Home</a>
+		  <a href="#life">Life</a>
+		  <a href="#movies">Movies</a>
+		  <a href="#nominations">Nominations</a>
+		  <a href="#gallery">Gallery</a>
+	</div>
+	<div class="menubar">
+	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span></div>
+
+	<div id="main">
+		
+		<div class="home" id="home">
+			<img src="img/mainphoto.jpg" id="mainpic">
+	 	 	<h2>The Queen of Philippine Horror Films</h2>
+	  		<p>Lilia Cuntapay</p>
+	  		<p>September 16, 1935 – August 20, 2016</p>
+	  	</div>
+	  	<div class="life" id="life">
+	 	 	<h2>Life
+	 	 	</h2>
+	  		<p>Lilia Cuntapay was a Filipina-Brazillian actress Born in the city of Brasilia Brazil, whose debut role was in the Filipino horror film series Shake Rattle and Roll in 1991. Thereafter, she was dubbed the "Queen of Philippine Horror Movies" due to her roles in many subsequent horror films.[3] She found acclaim for her first leading role, in the film Six Degrees of Separation from Lilia Cuntapay, which won her an award as Best Actress in the 2011 CinemaOne Originals Digital Film Festival. One of Cuntapay's final TV appearances was in the teleserye Ang Probinsyano.</p>
+	  	</div>
+	  	<div class="movies" id="movies">
+	 	 	<h2>Movies
+	 	 	</h2>
+	  		<p>Cuntapay was among the 40 actors trained in the first batch of acting workshops conducted by Lori Reyes and Peque Gallaga for LVN Pictures. In 1991, Cuntapay played the spooky nanny of Kris Aquino's character in Shake Rattle and Roll 3, and in the following year she was cast to play a character identified as an "aswang" —a role for which she would later be typecast in many subsequent movie appearances, and these earned her the title "Queen of Philippine Horror Movies." After her death a film critic, who assessed the top five performancess of Cuntapay's career, said that in her role for the 1992 film Aswang :</p>
+	  	</div>
+	  	<div class="nominations" id="nominations">
+	 	 	<h2>Nominations
+	 	 	</h2>
+	  		<p>Cuntapay played a fictionalized version of herself in the indie mockumentary Six Degrees of Separation from Lilia Cuntapay—described as a bittersweet fictional account on Cuntapay's life as a Philippine showbiz extra,[13] an entry to the 2011 Cinema One Originals and directed by Antoinette H. Jadaone.[14] The film won six awards in the 2011 Cinema One Originals Digital Film Festival, including a Best Actress award for Cuntapay.Cuntapay's last film appearance was My Bebe Love in 2015,[16] which was an entry in the 2015 Metro Manila Film Festival.[17] Cuntapay's final TV show appearance was in the action series Ang Probinsyano.[6]</p>
+	  	</div>
+	  	<div class="gallery" id="gallery">
+	 	 	<h2>Gallery
+	 	 	</h2>
+	  		<img src="img/gallery.jpg" id="galpic">
+	  		<P>On August 5, 2016, it was confirmed that Cuntapay suffered from a spinal cord illness and that she was unable to walk. She sought help from her friends and colleagues in the film industry to be able to raise money for her treatment. On August 20, at about 6 a.m, Cuntapay died in her son's home at Barangay Tartarabang in Pinili, Ilocos Norte; she was 80.</P>
+	  	</div>
+	</div>
+
+	<script>
+	function openNav() {
+	    document.getElementById("mySidenav").style.width = "250px";
+	    document.getElementById("main").style.marginLeft = "250px";
+	}
+
+	function closeNav() {
+	    document.getElementById("mySidenav").style.width = "0";
+	    document.getElementById("main").style.marginLeft= "0";
+	}
+	</script>
 
 
-
-	</body>
+</body>
 
 </html>
